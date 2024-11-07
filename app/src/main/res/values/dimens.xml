@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_padding">8dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="screen_text_size">48sp</dimen>
+    <dimen name="grid_margin_top">8dp</dimen>
+    <dimen name="button_height">64dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+</resources>

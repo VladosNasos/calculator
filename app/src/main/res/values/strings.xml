@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="zero">0</string>
+
+    <!-- Кнопки -->
+    <string name="button_clear">C</string>
+    <string name="button_delete">⌫</string>
+    <string name="button_divide">÷</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_multiply">×</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_minus">−</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_plus">+</string>
+    <string name="button_zero">0</string>
+    <string name="button_decimal">.</string>
+    <string name="button_equals">=</string>
+
+    <!-- Ошибки -->
+    <string name="error_divide_by_zero">Ошибка: Деление на ноль</string>
+    <string name="error_invalid_expression">Ошибка: Неверное выражение</string>
+</resources>

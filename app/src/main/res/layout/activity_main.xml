@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding">
+
+    <!-- Экран вывода -->
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/screen_background"
+        android:gravity="end|bottom"
+        android:padding="@dimen/screen_padding"
+        android:text="@string/zero"
+        android:textColor="@color/screen_text_color"
+        android:textSize="@dimen/screen_text_size"
+        android:maxLines="1"
+        android:ellipsize="start" />
+
+    <!-- Сетка кнопок -->
+    <GridLayout
+        android:id="@+id/grid_layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:marginTop="@dimen/grid_margin_top"
+        android:rowOrderPreserved="false">
+
+        <!-- Кнопки -->
+        <!-- Первый ряд -->
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/CalculatorButton"
+            android:text="@string/button_clear"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/CalculatorButton"
+            android:text="@string/button_delete" />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="@style/CalculatorButton"
+            android:text="@string/button_divide" />
+
+        <!-- Второй ряд -->
+        <Button
+            android:id="@+id/button_seven"
+            style="@style/CalculatorButton"
+            android:text="@string/button_seven" />
+
+        <Button
+            android:id="@+id/button_eight"
+            style="@style/CalculatorButton"
+            android:text="@string/button_eight" />
+
+        <Button
+            android:id="@+id/button_nine"
+            style="@style/CalculatorButton"
+            android:text="@string/button_nine" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/CalculatorButton"
+            android:text="@string/button_multiply" />
+
+        <!-- Третий ряд -->
+        <Button
+            android:id="@+id/button_four"
+            style="@style/CalculatorButton"
+            android:text="@string/button_four" />
+
+        <Button
+            android:id="@+id/button_five"
+            style="@style/CalculatorButton"
+            android:text="@string/button_five" />
+
+        <Button
+            android:id="@+id/button_six"
+            style="@style/CalculatorButton"
+            android:text="@string/button_six" />
+
+        <Button
+            android:id="@+id/button_minus"
+            style="@style/CalculatorButton"
+            android:text="@string/button_minus" />
+
+        <!-- Четвертый ряд -->
+        <Button
+            android:id="@+id/button_one"
+            style="@style/CalculatorButton"
+            android:text="@string/button_one" />
+
+        <Button
+            android:id="@+id/button_two"
+            style="@style/CalculatorButton"
+            android:text="@string/button_two" />
+
+        <Button
+            android:id="@+id/button_three"
+            style="@style/CalculatorButton"
+            android:text="@string/button_three" />
+
+        <Button
+            android:id="@+id/button_plus"
+            style="@style/CalculatorButton"
+            android:text="@string/button_plus" />
+
+        <!-- Пятый ряд -->
+        <Button
+            android:id="@+id/button_zero"
+            style="@style/CalculatorButton"
+            android:text="@string/button_zero"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:id="@+id/button_decimal"
+            style="@style/CalculatorButton"
+            android:text="@string/button_decimal" />
+
+        <Button
+            android:id="@+id/button_equals"
+            style="@style/CalculatorButton"
+            android:text="@string/button_equals" />
+
+    </GridLayout>
+
+</LinearLayout>
